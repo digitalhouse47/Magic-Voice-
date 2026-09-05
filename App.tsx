@@ -5,6 +5,7 @@ import TextToSpeech from './components/TextToSpeech';
 import SpeechToText from './components/SpeechToText';
 import MagicDialogue from './components/MagicDialogue';
 import ImageToVoice from './components/ImageToVoice';
+import VoiceCloning from './components/VoiceCloning';
 import Dashboard from './components/Dashboard';
 import { AppTab } from './types';
 import { Menu } from 'lucide-react';
@@ -48,6 +49,13 @@ const App: React.FC = () => {
             <>
                 <Header title="Gambar ke Suara" subtitle="Unggah gambar dan dengarkan AI mendeskripsikannya." />
                 <ImageToVoice />
+            </>
+        );
+      case AppTab.VOICE_CLONING:
+        return (
+            <>
+                <Header title="Kloning Suara" subtitle="Unggah suara referensi, lalu ubah teks menjadi suara yang mirip." />
+                <VoiceCloning />
             </>
         );
       default:

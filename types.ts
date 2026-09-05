@@ -3,7 +3,8 @@ export enum AppTab {
   TTS = 'TTS',
   STT = 'STT',
   DIALOGUE = 'DIALOGUE',
-  IMAGE_TO_VOICE = 'IMAGE_TO_VOICE'
+  IMAGE_TO_VOICE = 'IMAGE_TO_VOICE',
+  VOICE_CLONING = 'VOICE_CLONING'
 }
 
 export enum VoiceName {
