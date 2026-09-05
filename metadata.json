@@ -1,0 +1,7 @@
+{
+  "name": "Remix Magic Voice Development by Fito",
+  "description": "A powerful Text-to-Speech and Audio Transcription application powered by Gemini.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
